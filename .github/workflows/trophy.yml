@@ -31,7 +31,7 @@ jobs:
       - name: Generate trophy SVG
         run: deno run --allow-net --allow-env --allow-read --allow-write .trophy-renderer/render_svg.ts Mpadhi2000 assets/github-profile-trophy.svg onedark
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN1: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit generated SVG
         run: |
