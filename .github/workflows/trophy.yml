@@ -1,0 +1,43 @@
+name: generate-trophy
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trophy
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Clone trophy renderer
+        run: git clone --depth 1 https://github.com/ryo-ma/github-profile-trophy.git .trophy-renderer
+
+      - name: Generate trophy SVG
+        run: deno run --allow-net --allow-env --allow-read --allow-write .trophy-renderer/render_svg.ts Mpadhi2000 assets/github-profile-trophy.svg onedark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit generated SVG
+        run: |
+          rm -rf .trophy-renderer
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-profile-trophy.svg
+          git commit -m "chore: regenerate profile trophy SVG" || echo "No changes to commit"
+          git push
