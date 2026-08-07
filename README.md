@@ -88,51 +88,16 @@
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
-## 📌 Featured Projects
-
-<!-- ⚠️ Replace YOUR_REPOSITORY_URL / YOUR_DEMO_URL with your real GitHub repo and live-demo links before publishing. -->
-
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🧠 AI-Powered Assistant</h3>
-      <p align="center">RAG-based assistant built with LangChain, LangGraph & OpenAI — accurate answers grounded in your own documents.</p>
-      <p align="center"><strong>LangChain · LangGraph · OpenAI · Node.js</strong></p>
-      <p align="center"><a href="YOUR_REPOSITORY_URL">🔗 View Project</a> · <a href="YOUR_DEMO_URL">🚀 Live Demo</a></p>
-    </td>
-    <td width="50%">
-      <h3 align="center">🚀 Enterprise Web App</h3>
-      <p align="center">Scalable SaaS dashboard with React, Next.js & Node.js — engineered for performance, security, and maintainability.</p>
-      <p align="center"><strong>Next.js · React · Node.js · Express</strong></p>
-      <p align="center"><a href="YOUR_REPOSITORY_URL">🔗 View Project</a> · <a href="YOUR_DEMO_URL">🚀 Live Demo</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🛒 WooCommerce Store</h3>
-      <p align="center">High-performance WordPress + WooCommerce build with a custom theme, optimized for speed and conversions.</p>
-      <p align="center"><strong>WordPress · WooCommerce · PHP · CSS</strong></p>
-      <p align="center"><a href="YOUR_REPOSITORY_URL">🔗 View Project</a> · <a href="YOUR_DEMO_URL">🚀 Live Demo</a></p>
-    </td>
-    <td width="50%">
-      <h3 align="center">☁️ Cloud-Ready Backend</h3>
-      <p align="center">Containerized REST API on Docker, deployed to AWS with CI/CD, monitoring, and auto-scaling built in.</p>
-      <p align="center"><strong>Node.js · Express · Docker · AWS</strong></p>
-      <p align="center"><a href="YOUR_REPOSITORY_URL">🔗 View Project</a> · <a href="YOUR_DEMO_URL">🚀 Live Demo</a></p>
-    </td>
-  </tr>
-</table>
-
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mpadhi2000&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="Mayank's GitHub stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Mpadhi2000&theme=github_dark" alt="Mayank's GitHub stats" />
 </p>
 
 ## 🌐 Top Languages
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mpadhi2000&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mpadhi2000&theme=github_dark" alt="Top languages" />
 </p>
 
 ## 🔥 GitHub Streak
@@ -143,8 +108,9 @@
 
 ## 🏆 GitHub Trophies
 
+<!-- 🏆 Auto-generated weekly by the trophy.yml workflow and served from this repository. -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Mpadhi2000&theme=onedark&no-frame=true&no-bg=true&margin-w=4&margin-h=4&column=6" alt="GitHub trophies" />
+  <img src="https://raw.githubusercontent.com/Mpadhi2000/Mpadhi2000/main/assets/github-profile-trophy.svg" alt="GitHub trophies" />
 </p>
 
 ## 🌱 Activity Graph
