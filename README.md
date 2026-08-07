@@ -90,7 +90,7 @@
 
 ## 📌 Featured Projects
 
-<!-- ⚠️ Replace every "#" placeholder below with your real GitHub repo or live-demo links before publishing. -->
+<!-- ⚠️ Replace YOUR_REPOSITORY_URL / YOUR_DEMO_URL with your real GitHub repo and live-demo links before publishing. -->
 
 <table>
   <tr>
@@ -98,13 +98,13 @@
       <h3 align="center">🧠 AI-Powered Assistant</h3>
       <p align="center">RAG-based assistant built with LangChain, LangGraph & OpenAI — accurate answers grounded in your own documents.</p>
       <p align="center"><strong>LangChain · LangGraph · OpenAI · Node.js</strong></p>
-      <p align="center"><a href="#">🔗 View Project</a></p>
+      <p align="center"><a href="YOUR_REPOSITORY_URL">🔗 View Project</a> · <a href="YOUR_DEMO_URL">🚀 Live Demo</a></p>
     </td>
     <td width="50%">
       <h3 align="center">🚀 Enterprise Web App</h3>
       <p align="center">Scalable SaaS dashboard with React, Next.js & Node.js — engineered for performance, security, and maintainability.</p>
       <p align="center"><strong>Next.js · React · Node.js · Express</strong></p>
-      <p align="center"><a href="#">🔗 View Project</a></p>
+      <p align="center"><a href="YOUR_REPOSITORY_URL">🔗 View Project</a> · <a href="YOUR_DEMO_URL">🚀 Live Demo</a></p>
     </td>
   </tr>
   <tr>
@@ -112,13 +112,13 @@
       <h3 align="center">🛒 WooCommerce Store</h3>
       <p align="center">High-performance WordPress + WooCommerce build with a custom theme, optimized for speed and conversions.</p>
       <p align="center"><strong>WordPress · WooCommerce · PHP · CSS</strong></p>
-      <p align="center"><a href="#">🔗 View Project</a></p>
+      <p align="center"><a href="YOUR_REPOSITORY_URL">🔗 View Project</a> · <a href="YOUR_DEMO_URL">🚀 Live Demo</a></p>
     </td>
     <td width="50%">
       <h3 align="center">☁️ Cloud-Ready Backend</h3>
       <p align="center">Containerized REST API on Docker, deployed to AWS with CI/CD, monitoring, and auto-scaling built in.</p>
       <p align="center"><strong>Node.js · Express · Docker · AWS</strong></p>
-      <p align="center"><a href="#">🔗 View Project</a></p>
+      <p align="center"><a href="YOUR_REPOSITORY_URL">🔗 View Project</a> · <a href="YOUR_DEMO_URL">🚀 Live Demo</a></p>
     </td>
   </tr>
 </table>
@@ -141,13 +141,25 @@
   <img src="https://streak-stats.demolab.com/?user=Mpadhi2000&theme=github-dark&hide_border=true" alt="GitHub streak" />
 </p>
 
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Mpadhi2000&theme=onedark&no-frame=true&no-bg=true&margin-w=4&margin-h=4&column=6" alt="GitHub trophies" />
+</p>
+
+## 🌱 Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mpadhi2000&bg_color=0d1117&color=6EE7B7&line=6EE7B7&point=ffffff&area=true&hide_border=true" alt="GitHub activity graph" />
+</p>
+
 ## 📈 Contribution Graph
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mpadhi2000&theme=github_dark" alt="Contribution graph" />
 </p>
 
-<!-- 🐍 Optional snake animation — remove this block until the snake workflow has run once and pushed to the "output" branch (see setup checklist). -->
+<!-- 🐍 Generated daily by the snake.yml GitHub Action (Platane/snk) and served from the output branch. -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mpadhi2000/Mpadhi2000/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mpadhi2000/Mpadhi2000/output/github-contribution-grid-snake.svg" />
